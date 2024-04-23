@@ -1,3 +1,7 @@
+#Figma file of the design
+
+https://www.figma.com/file/OdOZ6XotzTkRo2JHHAkHqV/NewsW?type=design&node-id=0%3A1&mode=dev&t=9fMey7yQCU1rRZOW-1
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
