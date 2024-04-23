@@ -1,0 +1,247 @@
+.news_main_page{
+    margin-top: 90px;
+}
+.banner_main_new{
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+.banner_new{
+    width: 100%;
+    height: 450px;
+    margin-top: 12px;
+    border-radius: 0px;
+
+}
+.banner_main_new{
+
+}
+.banner_new{
+    
+}
+.banner_content_new {
+    width: 80%;
+    margin: auto;
+    background: white;
+    /* position: absolute; */
+    position: relative;
+    /* top: -72px; */
+    bottom: 111px;
+    padding: 18px 38px;
+    height: 350px;
+}
+.headline_new {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 11px;
+    line-height: 33px;
+}
+.para {
+    text-align: justify;
+    max-height: 60px;
+}
+.banner_borderl {
+    position: absolute;
+    left: 39px;
+    width: 77px;
+    height: 77px;
+}
+.banner_borderr{
+
+}
+/* .carousel-control-next {
+    align-items: end;
+    height: 563px;
+    left: 78%;
+} */
+/* .carousel-control-prev {
+    left: 0;
+    align-items: end;
+    height: 563px;
+    left: 73.5%;
+} */
+/* .larrow{
+    width: 42px;
+    height: 42px;
+}
+.rarrow{
+    width: 42px;
+    height: 42px;
+} */
+.carousel-indicators [data-bs-target] {
+    width: 119px;
+    height: 1px;
+   
+    background-color: #a31919;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    /* bottom: -70px; */
+    top: 83vh;
+}
+/* recent news */
+.recent_news {
+    margin-top: 35px;
+    margin-bottom: 78px;
+}
+.rec_title {
+    font-size: 30px;
+    text-align: start;
+    margin-left: 4.4%;
+    color: #a31919;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.newsdiv {
+    display: flex;
+    gap: 1%;
+    width: 91%;
+    margin: auto;
+}
+.news_row1 {
+    width: 25%;
+    /* background: grey; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.col1{
+    height: 218px;
+    width: 100%;
+    position: relative;
+}
+.col2{
+    height: 462px;
+    width: 100%;
+    position: relative;
+}
+.col3{
+    height: 193px;
+    width: 100%;
+    position: relative;
+}
+.col4{
+    height: 301px;
+    width: 100%;
+    position: relative;
+}
+.col5{
+    height: 164px;
+    width: 100%;
+    position: relative;
+}
+.col6{
+    height: 413px;
+    width: 100%;
+    position: relative;
+}
+.col7{
+    height: 266px;
+    width: 100%;
+    position: relative;
+}
+.col8{
+    height: 217px;
+    width: 100%;
+    position: relative;
+}
+.col9{
+    height: 462px;
+    width: 100%;
+    position: relative;
+}
+
+.rec_img1_1{
+    width: 100%;
+    height: 100%;
+}
+.hr_back{
+    position: absolute;
+    color: #a31919;
+    right: 26px;
+    top: 30px;
+    font-size: 12px;
+}
+.head_rec {
+    position: absolute;
+    bottom: -9px;
+    background: #d9d9d9a9;
+    height: auto;
+    /* top: 179px; */
+    width: 100%;
+    padding: 10px 6px;
+    text-align: start;
+}
+@media(max-width: 768px){
+    .headline_new {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 11px;
+        line-height: 22px;
+    }
+    .para {
+        text-align: justify;
+        max-height: 94px;
+        font-size: 13px;
+        line-height: 19px;
+        overflow: hidden;
+    }
+    .banner_content_new {
+        width: 89%;
+        padding: 17px 20px;
+        height: 212px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        /* bottom: -70px; */
+        top: 75.3vh;
+    }
+    .banner_new{
+        width: 100%;
+        height: 530px;
+        margin-top: 12px;
+        border-radius: 0px;
+    
+    }
+    .banner_main_new{
+        position: relative;
+        width: 100%;
+        height: 680px;
+    }
+    .newsdiv {
+        display: flex;
+        flex-direction: column;
+        gap: 0%;
+        width: 91%;
+        margin: auto;
+    }
+    .news_row1 {
+        width: 100%;
+    }
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9 {
+        height: 180px;
+    }
+    .col2, .col4, .col6, .col8 {
+        /* height: 180px; */
+        margin-bottom: 0px;
+    }
+    .news_row3{
+        margin: 20px 0px;
+    }
+    .col2 {
+        /* height: 180px; */
+        margin-bottom: 20px;
+    }
+   
+}

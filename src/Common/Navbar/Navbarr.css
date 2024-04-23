@@ -1,0 +1,101 @@
+.navbarrr{
+    overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  z-index: 1000;
+  background-color: #E8E7E7;
+}
+.logo_img{
+    width: 52px;
+    height: 52px;
+    
+}
+.containerr{
+    max-width: 1284px;
+}
+.navbar_left{
+    gap: 27px;
+}
+.form-control {
+    height: 51px;
+    width: 363px;
+}
+.search_in {
+    height: 51px;
+    background-color: #DFDEDE;
+    border-radius: 25px;
+    margin: auto;
+    }
+    .nav_img {
+        width: 24px;
+    height: 26px;
+    margin-top: 10px;
+    background-size: 100% 100%;
+    }
+.nav_imgsave{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+    
+.nav_text{
+    font-size: 16px;
+    color: #BA2E50;
+}
+.serch{
+    position: relative;
+    margin-top: 15px;
+}
+.ser_icon{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: #BA2E50;
+    top: 7px;
+    right: 8px;
+}
+@media (max-width: 991px){
+   .side{
+    display: flex;
+    margin: auto;
+   } 
+.nav_text {
+    font-size: 17px;
+    color: #BA2E50;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.form-control {
+    height: 51px;
+    width: 98%;
+    max-width: 319px;
+}
+.serch {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 339px;
+    margin: auto;
+}
+.ser_icon {
+    top: 7px;
+    right: 18px;
+}
+.navbar_left {
+    gap: 15px;
+}
+.logo_img {
+    width: 40px;
+    height: 40px;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.navbar-toggler {
+    margin-top: 21px;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    gap: 22px;
+    padding-bottom: 20px;
+}
+}
